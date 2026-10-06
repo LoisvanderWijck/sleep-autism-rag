@@ -1,0 +1,29 @@
+{
+  "in_scope": [
+    {"question": "What is prepulse inhibition?", "source": "Braff2001. PPI.pdf"},
+    {"question": "What does the Pittsburgh Sleep Quality Index measure?", "source": "Buysse.pdf"},
+    {"question": "What is the role of actigraphy in the study of sleep and circadian rhythms?", "source": "ancoli2003.pdf"},
+    {"question": "How is sleep disturbed in children with autism?", "source": "Goldman.Defining the Sleep Phenotype in Children With Autism.pdf"},
+    {"question": "What does heart rate variability reflect?", "source": "Dodds_HRV.pdf"},
+    {"question": "Did unmedicated adults with obsessive-compulsive disorder show impaired prepulse inhibition compared with healthy controls?", "source": "Ahmari et al 2012.pdf"},
+    {"question": "What changed in the DSM-5 regarding diagnosing ADHD in people with autism spectrum disorder?", "source": "antsheletal2019.pdf"},
+    {"question": "Which sleep problems differed between adults with high-functioning autism and neurotypical adults?", "source": "Baker2015.pdf"},
+    {"question": "How many adults took part in the study of sleep in high-functioning autism, and which methods measured their sleep?", "source": "Baker2015.pdf"},
+    {"question": "How can neurometric tests such as eyeblink conditioning be performed at home with a smartphone?", "source": "Boele2023.pdf"},
+    {"question": "Do children and adults with autism differ from healthy controls in prepulse inhibition?", "source": "cheng2018.pdf"},
+    {"question": "How does baseline heart rate variability differ between individuals with autism and controls?", "source": "cheng2020.pdf"},
+    {"question": "What is the Restorative Sleep Questionnaire and what does it measure?", "source": "drake.pdf"},
+    {"question": "What effect does sleep deprivation have on prepulse inhibition in rats?", "source": "Frau. SD disrupts PPI in rats et al 2008.pdf"},
+    {"question": "Which drugs did not reverse the prepulse inhibition deficit caused by sleep deprivation in rats?", "source": "Frau. SD disrupts PPI in rats et al 2008.pdf"}
+  ],
+  "out_of_scope": [
+    "What is the capital of France?",
+    "How do I bake a chocolate cake?",
+    "Who won the 2018 football World Cup?",
+    "What is the best programming language for beginners?",
+    "What is the price of Bitcoin?",
+    "What is the recommended dose of risperidone for children with autism?",
+    "What is the prevalence of autism in the Netherlands?",
+    "Does melatonin improve sleep quality in adults with obsessive-compulsive disorder?"
+  ]
+}

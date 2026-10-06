@@ -11,7 +11,7 @@ load_dotenv()
 DB_DIR = "chroma_db"
 COLLECTION_NAME = "papers"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-TOP_K = 5
+TOP_K = 8
 MODEL = os.getenv("LLM_MODEL")
 
 SYSTEM_PROMPT = """You are a careful research assistant.
