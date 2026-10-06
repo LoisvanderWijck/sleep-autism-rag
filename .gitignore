@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+chroma_db/
+data/papers/
+
+.DS_Store
