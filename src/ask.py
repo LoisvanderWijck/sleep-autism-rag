@@ -1,3 +1,4 @@
+from functools import lru_cache
 import os
 import sys
 
@@ -21,7 +22,7 @@ If the context does not contain the answer, reply exactly:
 "I can't find this in the provided papers."
 Do not use outside knowledge. Answer in the language of the question."""
 
-
+@lru_cache
 def get_collection():
     client = chromadb.PersistentClient(path=DB_DIR)
     embedder = embedding_functions.SentenceTransformerEmbeddingFunction(
