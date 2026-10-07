@@ -13,7 +13,7 @@ DB_DIR = "chroma_db"
 COLLECTION_NAME = "papers"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 TOP_K = 8
-MODEL = os.getenv("LLM_MODEL")
+MODEL = os.getenv("LLM_MODEL", "").strip()
 
 SYSTEM_PROMPT = """You are a careful research assistant.
 Answer the question using ONLY the numbered context excerpts provided.
